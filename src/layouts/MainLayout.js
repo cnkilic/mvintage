@@ -4,7 +4,7 @@ import Header from "../components/Header/Header";
 
 function MainLayout({ children }) {
   return (
-    <div c>
+    <div className="flex flex-col min-h-screen">
       <Header />
       {children}
       <Footer />
