@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 
+
 import "./App.css";
 import Home from "./pages/HomePage/Home";
 import Collections from "./pages/CollectionsPage/Collections";

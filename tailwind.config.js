@@ -5,7 +5,11 @@ module.exports = {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        '460': '460px', // Add custom height
+      },
+    },
   },
   plugins: [],
 }
