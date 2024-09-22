@@ -24,13 +24,13 @@ const Header = () => {
     <header className="border-b border-gray-200 h-16">
       <div className="container mx-auto px-8 flex items-center justify-between h-full w-full">
         {/* Logo */}
-        <div className="flex items-center space-x-4">
+        <Link to="/" className="flex items-center space-x-4">
           <img
             src="/assets/images/headerlogo.webp"
             alt="Mvintage Logo"
             className="h-8"
           />
-        </div>
+        </Link>
 
         {/* Hamburger Menu for mobile */}
         <div className="md:hidden">
@@ -326,7 +326,6 @@ const Header = () => {
             </div>
           </div>
 
-
           <div className="relative group md:static h-full">
             <Link
               className="text-gray-700 hover:text-black flex items-center h-full hover:border-b-2  hover:border-gray-900"
@@ -352,7 +351,7 @@ const Header = () => {
                         A PENDANTS
                       </Link>
                     </li>
-                 
+
                     <li>
                       <Link to="/" className="text-gray-600 hover:text-black">
                         D PENDANTS
@@ -370,7 +369,7 @@ const Header = () => {
                         A PENDANTS
                       </Link>
                     </li>
-                 
+
                     <li>
                       <Link to="/" className="text-gray-600 hover:text-black">
                         D PENDANTS
@@ -388,7 +387,7 @@ const Header = () => {
                         A PENDANTS
                       </Link>
                     </li>
-                 
+
                     <li>
                       <Link to="/" className="text-gray-600 hover:text-black">
                         D PENDANTS
@@ -399,8 +398,6 @@ const Header = () => {
               </div>
             </div>
           </div>
-
-        
         </nav>
 
         {/* Right Section with Icons */}
