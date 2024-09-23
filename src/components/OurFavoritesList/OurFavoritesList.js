@@ -1,5 +1,6 @@
 // ProductList.js
 import React from "react";
+
 import ProductList from "../ProductList/ProductList";
 
 const products = [
@@ -71,8 +72,8 @@ const products = [
   },
 ];
 
-const TrendingProductList = () => {
+const OurFavoritesList = () => {
   return <ProductList products={products} />;
 };
 
-export default TrendingProductList;
+export default OurFavoritesList;
