@@ -46,7 +46,7 @@ const HomeCarousel = () => {
             />
             <div className="absolute left-32 bottom-16 text-black flex flex-col justify-center items-center">
               <h2 className=" text-4xl font-bold mb-6">Slide Title 1</h2>
-              <button className="bg-black text-white px-6 py-3 font-semibold rounded-md hover:bg-gray-200">
+              <button className="bg-black text-white px-6 py-3 font-semibold rounded-md hover:bg-gray-800">
                 Shop Now
               </button>
             </div>
@@ -63,7 +63,7 @@ const HomeCarousel = () => {
             />
             <div className="absolute left-32 bottom-16 text-black flex flex-col justify-center items-center">
               <h2 className=" text-4xl font-bold mb-6">Slide Title 2</h2>
-              <button className="bg-black text-white px-6 py-3 font-semibold rounded-md hover:bg-gray-200">
+              <button className="bg-black text-white px-6 py-3 font-semibold rounded-md hover:bg-gray-800">
                 Shop Now
               </button>
             </div>
@@ -80,7 +80,7 @@ const HomeCarousel = () => {
             />
             <div className="absolute left-32 bottom-16 text-black flex flex-col justify-center items-center">
               <h2 className=" text-4xl font-bold mb-6">Slide Title 3</h2>
-              <button className="bg-black text-white px-6 py-3 font-semibold rounded-md hover:bg-gray-200">
+              <button className="bg-black text-white px-6 py-3 font-semibold rounded-md hover:bg-gray-800">
                 Shop Now
               </button>
             </div>

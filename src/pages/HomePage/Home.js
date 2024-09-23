@@ -6,6 +6,10 @@ import { FaArrowRight } from "react-icons/fa";
 import TrendingProductList from "../../components/TrendingProductList/TrendingProductList";
 import BestSellerList from "../../components/BestSellerList/BestSellerList";
 import BackInStock from "../../components/BackInStock/BackInStock";
+import OurFavoritesList from "../../components/OurFavoritesList/OurFavoritesList";
+import HomeVideo from "../../components/HomeVideo/HomeVideo";
+import PhotoTextSection from "../../components/PhotoTextSection/PhotoTextSection";
+import TestimonialSection from "../../components/TestimonialSection/TestimonialSection";
 
 function Home() {
   return (
@@ -14,7 +18,8 @@ function Home() {
         <HomeCarousel />
       </section>
 
-      <section className="">
+      {/* TRENDING NOW */}
+      <section>
         <div className="container mx-auto  flex justify-center items-center  flex-col shadow-lg my-8 rounded-lg bg-zinc-50">
           <header className="w-full flex justify-between items-center p-8">
             <h2 className="text-3xl flex items-center font-bold text-center">
@@ -30,7 +35,8 @@ function Home() {
         </div>
       </section>
 
-      <section className="">
+      {/* BEST SELLERS */}
+      <section>
         <div className="container mx-auto flex justify-center items-center  flex-col shadow-lg my-8 rounded-lg bg-zinc-50 relative">
           <header className="w-full flex justify-between items-center p-8">
             <h2 className="text-3xl flex items-center font-bold text-center">
@@ -45,8 +51,9 @@ function Home() {
         </div>
       </section>
 
-      <section className="">
-        <div className="container mx-auto flex justify-center items-center  flex-col shadow-lg my-8 rounded-lg bg-zinc-50 relative">
+      {/* OUR FAVORITES */}
+      <section>
+        <div className="container mx-auto flex justify-center items-center  flex-col  my-8 relative mb-12">
           <header className="w-full flex justify-between items-center p-8">
             <h2 className="text-3xl flex items-center font-bold text-center">
               OUR FAVORITES
@@ -56,11 +63,12 @@ function Home() {
               <FaArrowRight />
             </Link>
           </header>
-          <BestSellerList />
+          <OurFavoritesList />
         </div>
       </section>
 
-      <section className="">
+      {/* BACK IN STOCK */}
+      <section>
         <div className="container mx-auto flex justify-center items-center  flex-col shadow-lg my-8 rounded-lg bg-zinc-50 relative">
           <header className="w-full flex justify-between items-center p-8">
             <h2 className="text-3xl flex items-center font-bold text-center">
@@ -73,6 +81,21 @@ function Home() {
           </header>
           <BackInStock />
         </div>
+      </section>
+
+      {/* VIDEO */}
+      <section>
+        <HomeVideo />
+      </section>
+
+      {/* VIDEO */}
+      <section>
+        < PhotoTextSection/>
+      </section>
+
+      {/* TESTİMONIAL SECTION */}
+      <section>
+        < TestimonialSection />
       </section>
     </div>
   );

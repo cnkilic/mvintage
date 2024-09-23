@@ -18,7 +18,7 @@ const ProductList = ({ products }) => {
   };
 
   return (
-    <div className="max-w-full relative">
+    <div className="max-w-full relative w-full">
       {/* Left Arrow */}
       <button
         className="absolute -left-5 top-1/2 transform -translate-y-1/2 bg-black text-white p-2 rounded-full  hover:bg-gray-700 z-10"
