@@ -21,7 +21,7 @@ const Header = () => {
   };
 
   return (
-    <header className="border-b border-gray-200 h-16">
+    <header className="fixed top-0 left-0 w-full border-b border-gray-200 h-16 z-50 bg-white">
       <div className="container mx-auto px-8 flex items-center justify-between h-full w-full">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-4">

@@ -29,7 +29,12 @@ const ProductCard = ({
           <h3 className="text-lg font-semibold mb-2">{title}</h3>
           {review && (
             <div className="text-sm mb-2 flex gap-2">
-              <div>★★★★ </div>
+              <div className="flex">
+                {" "}
+                {[...Array(Math.floor(review.point))].map((_, i) => (
+                  <div key={i}>★</div>
+                ))}{" "}
+              </div>
               <div>{review.count}</div>
             </div>
           )}
