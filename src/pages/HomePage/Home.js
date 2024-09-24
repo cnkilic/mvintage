@@ -97,6 +97,21 @@ function Home() {
       <section>
         < TestimonialSection />
       </section>
+
+      {/* WHO WE ARE SECTION */}
+      <section>
+       WHO WE ARE
+      </section>
+
+      {/* MOBILE APP LINK SECTION */}
+      <section>
+       MOBİLE APP
+      </section>
+
+      {/* STAY CONNECTED SECTION */}
+      <section>
+       STAY CONNECTED
+      </section>
     </div>
   );
 }
